@@ -1,0 +1,35 @@
+title: Fayyaz Dev Blog
+email: your-email@example.com
+description: >-
+  A personal blog about development, technology, and data visualization.
+  Exploring tools like Claude Code, AgentStream, and MLFlow.
+baseurl: "/fayyazdev-website"
+url: "https://tfayyaz.github.io"
+
+twitter_username: your_username
+github_username: tfayyaz
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Minima date format
+minima:
+  date_format: "%b %-d, %Y"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
